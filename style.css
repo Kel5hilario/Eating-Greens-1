@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://i.pinimg.com/564x/4f/18/71/4f187115cd90694a2ef89212bf2e5512.jpg");
+}
+/* Home first page*/
+.wrapper{
+  margin: 0 auto;
+  width: 350px;
+}
+.vid{
+border:5px  white solid;
+  padding: 9px;
+  margin: 9px;
+  border-radius: 200px 105px;
+  background-color: #97c897;
+}
+ul{
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:135%;
+  height:30px;
+   color: #0b563d;
+  background-color: #a1cea1;
+}
+li:hover{
+  color: #06bca7;
+}
+li{
+  display: inline;
+}
+
+button{
+  background-color:#92edce;
+  color:#0b2818
+}
+h3{
+  text-align: center;
+}
+
+/* Home first page END*/
+
+
+/* MAIN MENU*/
+.page1 {
+display: none;
+}
+
+/* Put it big for it to be more noticible */
+h1 {
+  color: white;
+  text-align: center;
+  font-family:"Lucida Handwriting",cursive;
+  font-size: 40px;
+  text-shadow: 2px 2px #ace1af;
+}
+
+.lolo{
+  width: 32%;
+  padding: 15px;
+}
+/* .menu1{
+  width: 34%;
+  padding: 15px;
+  float: left; 
+}
+.menu2{
+  width:36%;
+  padding: 15px;
+  float: left;
+} */
+
+p:hover{
+   color: #138b4d;
+  
+}
+p{
+ font-style: italic;
+}
+
+.lolo{
+  border:4px  white solid;
+/*   padding: 10px;
+  margin: 10px; */
+  text-align: center;
+  border-radius: 15px 35px;
+  font-style:oblique;
+/*    float: left; */
+}
+img{
+  width: 140px;
+}
+.lolo, .menu1, .menu2{
+  float:left;
+  width:30%;
+  padding:15px;
+}
